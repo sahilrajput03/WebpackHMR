@@ -1,3 +1,4 @@
 export default function printMe() {
-  console.log('I am  coooool!!!!');
+  // alert(JSON.stringify(document, null, 2)); // Cool magic.
+  alert('coosssl ')
 }
