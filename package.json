@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --open",
+    "nodejsApi": "node dev-server.js",
     "build": "webpack",
     "watch": "webpack --watch",
     "backend": "node server.js"

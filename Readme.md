@@ -33,3 +33,5 @@ webpack-dev-middleware is a wrapper that will emit files processed by webpack to
 Quoting from <https://webpack.js.org/guides/hot-module-replacement/>
 
 - If you took the route of using webpack-dev-middleware instead of webpack-dev-server, please use the webpack-hot-middleware package to enable HMR on your custom server or application.
+
+- [Click here for source](https://webpack.js.org/guides/hot-module-replacement/#hmr-with-stylesheets) Hot Module Replacement with CSS is actually fairly straightforward with the help of the style-loader. This loader uses module.hot.accept behind the scenes to patch `<style>` tags when CSS dependencies are updated.
